@@ -186,9 +186,8 @@
 
 // //1:29
 
-
-
 "use client";
+
 import React, { useState } from "react";
 import Navbar from "@/component/Navbar";
 import Image from "next/image";
@@ -203,7 +202,9 @@ const Generate = () => {
 
   const handleChange = (index, link, linktext) => {
     setLinks((initialLinks) =>
-      initialLinks.map((item, i) => (i === index ? { link, linktext } : item))
+      initialLinks.map((item, i) =>
+        i === index ? { link, linktext } : item
+      )
     );
   };
 
@@ -217,10 +218,8 @@ const Generate = () => {
       pic,
     });
 
-    console.log(raw);
-
     try {
-      const r = await fetch("http://localhost:3000/api/generate", {
+      const r = await fetch("/api/generate", {
         method: "POST",
         headers: myHeaders,
         body: raw,
