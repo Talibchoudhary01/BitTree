@@ -167,7 +167,7 @@ setLinks(Links.concat([{link:"",linktext:""}]))
         </div>
 
         <div className="secondgrid h-screen w-full ">
-          <img
+          <Image 
             className="h-screen w-full  object-contain"
             src="generateimg.png"
             alt="generate image"

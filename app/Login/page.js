@@ -8,7 +8,7 @@ const Login = () => {
         <div className="absolute left-1 top-9">
           <Link href="/">
             {" "}
-            <img
+            <Image
               className="mx-11 cursor-pointer h-6 w-39 "
               src="./linktreeimage.svg"
               alt="Profile picture"
@@ -160,7 +160,7 @@ const Login = () => {
       </div>
 
       <div className="h-screen w-full ">
-        <img
+        <Image 
           className="h-screen w-full"
           src="/bannerlogin.png"
           alt="Banner image"

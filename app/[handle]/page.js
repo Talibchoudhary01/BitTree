@@ -83,7 +83,7 @@ export default async function Page({ params }) {
        {item && <div className="bg-white/20 backdrop-blur-lg border border-white/30 shadow-2xl rounded-3xl p-8 w-[90%] sm:w-[400px] flex flex-col items-center gap-6">
           
         
-          <img
+          <Image 
             className="h-24 w-24 rounded-full border-4 border-white/50 shadow-lg hover:cursor-pointer"
             src={item.pic}
             alt="Profile"
