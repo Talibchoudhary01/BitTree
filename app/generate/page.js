@@ -1,6 +1,6 @@
-"use client";
-
+"use client"
 import React, { useState } from "react";
+import { Suspense } from "react";
 import Navbar from "@/component/Navbar";
 import Image from "next/image";
 
