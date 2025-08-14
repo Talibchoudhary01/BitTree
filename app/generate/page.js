@@ -2,6 +2,8 @@
 
 import React, { useState } from "react";
 import Navbar from "@/component/Navbar";
+import Image from "next/image";
+
 import { ToastContainer, toast } from "react-toastify";
 import { useParams, useSearchParams } from "next/navigation";
 

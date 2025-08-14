@@ -1,4 +1,6 @@
 import Navbar from "@/component/Navbar"
+import Image from "next/image";
+
 import clientPromise from "@/lib/mongodb";
 import { notFound } from "next/navigation";
 

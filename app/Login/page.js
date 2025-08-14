@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+
 
 const Login = () => {
   return (
@@ -152,7 +154,7 @@ const Login = () => {
             </div>
 
             <div className="w-[36vw] h-[8vh] mt-2 flex justify-center items-center gap-2 pb-[13vh] pt-[5vh] ">
-              <h1 className="text-slate-700">Don't have an account ?</h1>
+              <h1 className="text-slate-700">Do not  have an account ?</h1>
               <h1 className="text-[#8129D9]">Sign up</h1>
             </div>
           </div>
